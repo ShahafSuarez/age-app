@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./age.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://avatars.githubusercontent.com/u/74315888?v=4">
+  <script src="./age.js" async></script>
+  <script src="https://kit.fontawesome.com/291244f1f2.js" crossorigin="anonymous"></script>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Age</title>
+
+</head>
+
+<body>
+
+  <main>
+    <section>
+      <div class="app-frame">
+
+        <div class="app-data">
+          <form id="date-form">
+            <div class="input-div">
+              <label>Day</label>
+              <input type="number" required min="1" max="31" placeholder="DD" name="" id="day-input">
+            </div>
+            <div class="input-div">
+              <label>Month</label>
+              <input type="number" required min="1" max="12" placeholder="MM" name="" id="month-input">
+            </div>
+            <div class="input-div">
+              <label>Year</label>
+              <input type="number" required min="0" max="currentYear" placeholder="YYYY" name="" id="year-input">
+            </div>
+            <a href=""></a>
+            <div class="submit-btn">
+              <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+                  <g fill="none" stroke="#222831" stroke-width="2">
+                    <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+                  </g>
+                </svg></button>
+            </div>
+          </form>
+        </div>
+
+        <div class="app-results">
+          <div>
+            <p>Your age:</p>
+            <p><span id="year">--</span> years</p>
+            <p><span id="month">--</span> months</p>
+            <p><span id="day">--</span> days</p>
+          </div>
+          <div class="next-birthday">
+            <p>Next birthbay:</p>
+            <p><span id="next-day">--</span> days</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="theme-selector">
+        <i class="fa-regular fa-sun fa-2xl"></i>
+        <i class="fa-solid fa-cloud fa-2xl"></i>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

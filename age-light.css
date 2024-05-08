@@ -1,0 +1,133 @@
+/* Light Mode */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 100vh;
+  background-color: #e4c59e;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.app-frame {
+  display: flex;
+  flex-direction: column;
+  width: 645px;
+  min-height: 250px;
+  background-color: #af8260;
+  border-radius: 40px 40px 150px 40px;
+  padding: 50px;
+}
+
+.app-data {
+  display: flex;
+  border-bottom: 2px solid #e4c59e;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #e4c59e;
+  font-size: 0.85rem;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  width: 130px;
+  background-color: transparent;
+  border: 2px solid #e4c59e;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  outline: none;
+  color: #e4c59e;
+}
+
+input::placeholder {
+  color: #e4c59e;
+}
+
+button {
+  border-radius: 100%;
+  background-color: #803d3b;
+  border: 2px solid #e4c59e;
+  padding: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button[type="submit"] svg path {
+  stroke: #e4c59e;
+}
+
+.submit-btn {
+  position: relative;
+  top: 65px;
+}
+
+.app-results {
+  display: none;
+  align-items: baseline;
+  gap: 50px;
+  padding-top: 30px;
+  color: #e4c59e;
+  font-size: 2rem;
+}
+
+.app-results span {
+  color: #803d3b;
+}
+
+.next-birthday {
+  padding-top: 30px;
+  color: #e4c59e;
+}
+
+.theme-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: #af8260;
+  border-radius: 40px 40px 40px 40px;
+}
+
+i.fa-sun {
+  display: none;
+  color: #e4c59e;
+}
+
+i.fa-cloud {
+  display: block;
+  color: #222831;
+}
+
+i:hover {
+  cursor: pointer;
+}
