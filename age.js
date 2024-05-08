@@ -2,7 +2,12 @@
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
 
-document.getElementById("year-input").setAttribute("max", currentYear);
+const yearInput = document.getElementById("year-input");
+if (yearInput) {
+  yearInput.setAttribute("max", currentYear);
+} else {
+  console.error("Element with ID 'year-input' not found.");
+}
 // form year validation.
 
 //  calculations
