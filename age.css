@@ -91,6 +91,7 @@ button[type="submit"] svg path {
 
 .submit-btn {
   position: relative;
+  left: 15px;
   top: 65px;
 }
 

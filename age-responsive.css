@@ -1,0 +1,61 @@
+@media only screen and (max-width: 376px) {
+  section {
+    flex-direction: column;
+  }
+
+  .app-frame {
+    width: 325px;
+    padding: 25px;
+  }
+
+  form {
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 125px;
+  }
+
+  .submit-btn {
+    position: relative;
+    left: 70px;
+    top: 65px;
+  }
+
+  .app-results {
+    gap: 30px;
+    padding-top: 30px;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  section {
+    flex-direction: column;
+  }
+
+  .app-frame {
+    width: 375px;
+    padding: 25px;
+  }
+
+  form {
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 150px;
+  }
+
+  .submit-btn {
+    position: relative;
+    left: 80px;
+    top: 65px;
+  }
+
+  .app-results {
+    gap: 40px;
+    padding-top: 30px;
+    font-size: 1.25rem;
+  }
+}
