@@ -35,7 +35,6 @@ section {
 .app-data {
   display: flex;
   flex-direction: column;
-
   border-bottom: 2px solid #e4c59e;
 }
 
